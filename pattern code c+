@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  cout<<"Enter the row size:";
+  int row_size,out,in;
+  cin>>row_size;
+  for(out=1;out<=row_size;out++)
+  {
+   for(in=row_size;in>=out;in--)
+    cout<<"*";
+     cout<<"\n";
+  }
+}
